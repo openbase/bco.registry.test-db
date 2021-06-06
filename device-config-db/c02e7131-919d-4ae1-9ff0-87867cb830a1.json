@@ -1,0 +1,52 @@
+{
+  "id": "c02e7131-919d-4ae1-9ff0-87867cb830a1",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Table Lamp"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Device-1"
+  ],
+  "unit_type": "DEVICE",
+  "placement_config": {
+    "location_id": "e64317c3-d70a-4c1a-b969-310d278b9641",
+    "transformation_frame_id": "Device-1",
+    "pose": {
+      "translation": {},
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {}
+    }
+  },
+  "scope": {
+    "component": [
+      "location-1",
+      "location-2",
+      "device",
+      "device-1"
+    ]
+  },
+  "description": {},
+  "bound_to_unit_host": true,
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "e64317c3-d70a-4c1a-b969-310d278b9641"
+    },
+    "device_class_id": "0704d6ba-7a72-4546-aed8-2563110dcf11",
+    "unit_id": [
+      "25c6c65e-eba6-4ec5-a881-e023c2bd94ca"
+    ]
+  }
+}

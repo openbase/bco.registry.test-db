@@ -1,0 +1,57 @@
+{
+  "id": "98fe6683-87a8-42ac-a3d9-3cede54f829a",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Cloud Connector Authorization Group"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "AuthorizationGroup-13"
+  ],
+  "unit_type": "AUTHORIZATION_GROUP",
+  "placement_config": {
+    "location_id": "5a9de24a-f778-4829-8290-c2b2d963d053",
+    "transformation_frame_id": "AuthorizationGroup-13"
+  },
+  "scope": {
+    "component": [
+      "location-1",
+      "authorizationgroup",
+      "authorizationgroup-13"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "APP_CLASS_ID",
+        "value": "d7a2de25-092f-424d-8f48-20ca7a9491c5"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "authorization_group_config": {},
+  "permission_config": {
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    },
+    "group_permission": [
+      {
+        "group_id": "98fe6683-87a8-42ac-a3d9-3cede54f829a",
+        "permission": {
+          "read": true,
+          "write": true,
+          "access": true
+        }
+      }
+    ]
+  }
+}

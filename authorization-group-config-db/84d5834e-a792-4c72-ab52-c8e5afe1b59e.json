@@ -1,0 +1,57 @@
+{
+  "id": "84d5834e-a792-4c72-ab52-c8e5afe1b59e",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Night Light Authorization Group"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "AuthorizationGroup-18"
+  ],
+  "unit_type": "AUTHORIZATION_GROUP",
+  "placement_config": {
+    "location_id": "5a9de24a-f778-4829-8290-c2b2d963d053",
+    "transformation_frame_id": "AuthorizationGroup-18"
+  },
+  "scope": {
+    "component": [
+      "location-1",
+      "authorizationgroup",
+      "authorizationgroup-18"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "APP_CLASS_ID",
+        "value": "32f56f9d-4197-4d97-9b73-5a35e9492b52"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "authorization_group_config": {},
+  "permission_config": {
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    },
+    "group_permission": [
+      {
+        "group_id": "84d5834e-a792-4c72-ab52-c8e5afe1b59e",
+        "permission": {
+          "read": true,
+          "write": true,
+          "access": true
+        }
+      }
+    ]
+  }
+}

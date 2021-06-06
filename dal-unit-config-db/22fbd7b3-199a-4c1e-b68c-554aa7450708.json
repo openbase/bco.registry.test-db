@@ -1,0 +1,51 @@
+{
+  "id": "22fbd7b3-199a-4c1e-b68c-554aa7450708",
+  "unit_template_config_id": "98a370dc-a0c6-4b5e-84db-32fba685bb50_BATTERY_0",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Mulit Sensor"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Battery-1"
+  ],
+  "unit_host_id": "83efdfdc-8592-4d6a-9ff2-6309879b52f5",
+  "unit_type": "BATTERY",
+  "placement_config": {
+    "location_id": "e64317c3-d70a-4c1a-b969-310d278b9641",
+    "transformation_frame_id": "Battery-1",
+    "pose": {
+      "translation": {},
+      "rotation": {}
+    }
+  },
+  "scope": {
+    "component": [
+      "location-1",
+      "location-2",
+      "battery",
+      "battery-1"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB"
+      },
+      "unit_id": "22fbd7b3-199a-4c1e-b68c-554aa7450708",
+      "service_description": {
+        "service_template_id": "d1dd033f-9dae-46fb-9355-a32b0b898db7",
+        "service_type": "BATTERY_STATE_SERVICE"
+      }
+    }
+  ],
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

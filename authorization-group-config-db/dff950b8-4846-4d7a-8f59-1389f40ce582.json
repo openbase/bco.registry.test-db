@@ -1,0 +1,57 @@
+{
+  "id": "dff950b8-4846-4d7a-8f59-1389f40ce582",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Sound Scape Authorization Group"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "AuthorizationGroup-17"
+  ],
+  "unit_type": "AUTHORIZATION_GROUP",
+  "placement_config": {
+    "location_id": "5a9de24a-f778-4829-8290-c2b2d963d053",
+    "transformation_frame_id": "AuthorizationGroup-17"
+  },
+  "scope": {
+    "component": [
+      "location-1",
+      "authorizationgroup",
+      "authorizationgroup-17"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "APP_CLASS_ID",
+        "value": "914ca20d-0d39-4efd-929b-ac8225c79b27"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "authorization_group_config": {},
+  "permission_config": {
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    },
+    "group_permission": [
+      {
+        "group_id": "dff950b8-4846-4d7a-8f59-1389f40ce582",
+        "permission": {
+          "read": true,
+          "write": true,
+          "access": true
+        }
+      }
+    ]
+  }
+}

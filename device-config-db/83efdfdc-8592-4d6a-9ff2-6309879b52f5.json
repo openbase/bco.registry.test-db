@@ -1,0 +1,58 @@
+{
+  "id": "83efdfdc-8592-4d6a-9ff2-6309879b52f5",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Mulit Sensor"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Device-2"
+  ],
+  "unit_type": "DEVICE",
+  "placement_config": {
+    "location_id": "e64317c3-d70a-4c1a-b969-310d278b9641",
+    "transformation_frame_id": "Device-2",
+    "pose": {
+      "translation": {},
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {}
+    }
+  },
+  "scope": {
+    "component": [
+      "location-1",
+      "location-2",
+      "device",
+      "device-2"
+    ]
+  },
+  "description": {},
+  "bound_to_unit_host": true,
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "e64317c3-d70a-4c1a-b969-310d278b9641",
+      "timestamp": {}
+    },
+    "device_class_id": "98a370dc-a0c6-4b5e-84db-32fba685bb50",
+    "unit_id": [
+      "dd8b5b2d-f63c-4d65-92f9-896bd8ee7af7",
+      "f56de1ff-2c5b-4d27-97ad-2a1cf3783196",
+      "6aa7c3e2-e7c1-484e-94f0-22845287fbdb",
+      "2eeb1ae7-67fb-424b-8a5a-4f79f439fcd5",
+      "b1fe7ca7-4740-44bc-a85c-409b287fb0c9",
+      "22fbd7b3-199a-4c1e-b68c-554aa7450708"
+    ]
+  }
+}

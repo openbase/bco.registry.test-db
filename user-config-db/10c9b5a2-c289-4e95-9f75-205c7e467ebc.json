@@ -1,0 +1,111 @@
+{
+  "id": "10c9b5a2-c289-4e95-9f75-205c7e467ebc",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Open HAB (Open HAB)"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "User-3",
+    "OpenHABUser"
+  ],
+  "unit_type": "USER",
+  "placement_config": {
+    "location_id": "5a9de24a-f778-4829-8290-c2b2d963d053",
+    "transformation_frame_id": "User-3"
+  },
+  "scope": {
+    "component": [
+      "location-1",
+      "user",
+      "user-3"
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "10c9b5a2-c289-4e95-9f75-205c7e467ebc",
+      "service_description": {
+        "service_template_id": "14bf74e2-dce4-47c7-9c58-cc85dea24ed5",
+        "service_type": "ACTIVITY_MULTI_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "10c9b5a2-c289-4e95-9f75-205c7e467ebc",
+      "service_description": {
+        "service_template_id": "14bf74e2-dce4-47c7-9c58-cc85dea24ed5",
+        "service_type": "ACTIVITY_MULTI_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "10c9b5a2-c289-4e95-9f75-205c7e467ebc",
+      "service_description": {
+        "service_template_id": "5d664e5a-6fa3-433a-a1e0-ca81d79aacff",
+        "service_type": "PRESENCE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "10c9b5a2-c289-4e95-9f75-205c7e467ebc",
+      "service_description": {
+        "service_template_id": "5d664e5a-6fa3-433a-a1e0-ca81d79aacff",
+        "service_type": "PRESENCE_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "10c9b5a2-c289-4e95-9f75-205c7e467ebc",
+      "service_description": {
+        "service_template_id": "4537a330-af91-4499-bc3b-3c559e9b6ea0",
+        "service_type": "USER_TRANSIT_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "10c9b5a2-c289-4e95-9f75-205c7e467ebc",
+      "service_description": {
+        "service_template_id": "4537a330-af91-4499-bc3b-3c559e9b6ea0",
+        "service_type": "USER_TRANSIT_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "user_config": {
+    "first_name": "Open",
+    "last_name": "HAB",
+    "user_name": "OpenHAB",
+    "system_user": false,
+    "language": "en"
+  },
+  "permission_config": {
+    "owner_id": "10c9b5a2-c289-4e95-9f75-205c7e467ebc",
+    "owner_permission": {
+      "read": true,
+      "write": true,
+      "access": true
+    },
+    "other_permission": {
+      "read": true,
+      "write": false,
+      "access": false
+    }
+  }
+}

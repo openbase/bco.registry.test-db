@@ -1,0 +1,57 @@
+{
+  "id": "94488abc-d555-4c4b-ac19-b6cc0945b2c8",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Presence Light Scene Activator Authorization Group"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "AuthorizationGroup-22"
+  ],
+  "unit_type": "AUTHORIZATION_GROUP",
+  "placement_config": {
+    "location_id": "5a9de24a-f778-4829-8290-c2b2d963d053",
+    "transformation_frame_id": "AuthorizationGroup-22"
+  },
+  "scope": {
+    "component": [
+      "location-1",
+      "authorizationgroup",
+      "authorizationgroup-22"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "AGENT_CLASS_ID",
+        "value": "eeae71d5-01f4-45a1-9631-a6f911767f18"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "authorization_group_config": {},
+  "permission_config": {
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    },
+    "group_permission": [
+      {
+        "group_id": "94488abc-d555-4c4b-ac19-b6cc0945b2c8",
+        "permission": {
+          "read": true,
+          "write": true,
+          "access": true
+        }
+      }
+    ]
+  }
+}

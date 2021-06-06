@@ -1,0 +1,116 @@
+{
+  "id": "1381ecbb-783a-4cd4-b3d2-4184c9df87ec",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "App 1@Kitchen"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "User-4"
+  ],
+  "unit_type": "USER",
+  "placement_config": {
+    "location_id": "5a9de24a-f778-4829-8290-c2b2d963d053",
+    "transformation_frame_id": "User-4"
+  },
+  "scope": {
+    "component": [
+      "location-1",
+      "user",
+      "user-4"
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "1381ecbb-783a-4cd4-b3d2-4184c9df87ec",
+      "service_description": {
+        "service_template_id": "14bf74e2-dce4-47c7-9c58-cc85dea24ed5",
+        "service_type": "ACTIVITY_MULTI_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "1381ecbb-783a-4cd4-b3d2-4184c9df87ec",
+      "service_description": {
+        "service_template_id": "14bf74e2-dce4-47c7-9c58-cc85dea24ed5",
+        "service_type": "ACTIVITY_MULTI_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "1381ecbb-783a-4cd4-b3d2-4184c9df87ec",
+      "service_description": {
+        "service_template_id": "5d664e5a-6fa3-433a-a1e0-ca81d79aacff",
+        "service_type": "PRESENCE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "1381ecbb-783a-4cd4-b3d2-4184c9df87ec",
+      "service_description": {
+        "service_template_id": "5d664e5a-6fa3-433a-a1e0-ca81d79aacff",
+        "service_type": "PRESENCE_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "1381ecbb-783a-4cd4-b3d2-4184c9df87ec",
+      "service_description": {
+        "service_template_id": "4537a330-af91-4499-bc3b-3c559e9b6ea0",
+        "service_type": "USER_TRANSIT_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "1381ecbb-783a-4cd4-b3d2-4184c9df87ec",
+      "service_description": {
+        "service_template_id": "4537a330-af91-4499-bc3b-3c559e9b6ea0",
+        "service_type": "USER_TRANSIT_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "UNIT_ID",
+        "value": "f67c8a6b-9ba1-4544-a442-ea78a8644b1f"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "user_config": {
+    "user_name": "App 1@Kitchen",
+    "system_user": true,
+    "language": "en"
+  },
+  "permission_config": {
+    "owner_id": "1381ecbb-783a-4cd4-b3d2-4184c9df87ec",
+    "owner_permission": {
+      "read": true,
+      "write": true,
+      "access": true
+    },
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    }
+  }
+}

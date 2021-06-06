@@ -1,0 +1,61 @@
+{
+  "id": "7390c7f0-0075-4eb9-a12a-fa023837c739",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Party Light Tile Follower Authorization Group"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "AuthorizationGroup-15"
+  ],
+  "unit_type": "AUTHORIZATION_GROUP",
+  "placement_config": {
+    "location_id": "5a9de24a-f778-4829-8290-c2b2d963d053",
+    "transformation_frame_id": "AuthorizationGroup-15"
+  },
+  "scope": {
+    "component": [
+      "location-1",
+      "authorizationgroup",
+      "authorizationgroup-15"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "APP_CLASS_ID",
+        "value": "4a8f3d3e-dda1-45c6-b0e8-5d437cdb9e42"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "authorization_group_config": {
+    "member_id": [
+      "1381ecbb-783a-4cd4-b3d2-4184c9df87ec"
+    ]
+  },
+  "permission_config": {
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    },
+    "group_permission": [
+      {
+        "group_id": "7390c7f0-0075-4eb9-a12a-fa023837c739",
+        "permission": {
+          "read": true,
+          "write": true,
+          "access": true
+        }
+      }
+    ]
+  }
+}
